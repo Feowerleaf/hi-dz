@@ -12,21 +12,13 @@ if (await exists(book_dir, {isReadable: true})) {
 
 console.log(`Books will be saved in subfolder ${book_dir}`)
 const links = {
-    "高中《美術》（全一冊）": {
-        "link": "https://elearning.dongzong.my/dongzong/senior/sm3/art",
-        "chapters": ["copyrightandcontent", "introduction", "ch01", "ch02", "ch03", "ch04", "ch05", "ch06", "ch07", "ch08", "ch09", "ch10", "ch11", "ch12", "ch13", "ch14", "ch15", "Ch15", "ch016", "ch17", "ch18", "ch19", "ch20", "ch21", "ch022", "ch23", "ch24", "ch25", "ch26"]
+    "高中《電腦與資訊工藝》上冊": {
+        "link": "https://elearning.dongzong.my/dongzong/senior/sm1/IT",
+        "chapters": ["copyrightandcontent", "ch1", "ch2", "ch3", "ch4", "ch5", "ch6", "ch7", "ch8"]
     },
-    "高中《美術賞析》第一冊": {
-        "link": "https://elearning.dongzong.my/dongzong/senior/sm1/artap",
-        "chapters": ["copyright&contents", "ch01(1.1-1.4)", "ch01(1.5)", "ch02.2023", "ch03(2023)", "ch04", "ch05(2)(2023)", "ch05(1)(2023)", "ch06(2023)", "ch07(2023)", "ch08(2023)", "ch09(2023)", "ch10(10.1)2023", "ch10(10.2)2023", "ch11(11.1)2023", "ch11(11.2)2023"]
-    },
-    "高中《美術賞析》第二冊": {
-        "link": "https://elearning.dongzong.my/dongzong/senior/sm2/art2023",
-        "chapters": ["copyrightandcontent(2023)", "ch01(2023)", "ch02(2023)", "ch03(2023)3.1", "ch03(2023)3.2", "ch04(2023)", "ch05(5.1)2023", "ch05(5.2)2023", "ch06(6.1)2023", "ch06(6.2)2023", "ch07(7.1)2023", "ch07(7.2)2023", "ch08(8.1)2023", "ch08(8.2)2023"]
-    },
-    "高中《美術賞析》第三冊": {
-        "link": "https://elearning.dongzong.my/dongzong/senior/sm3/art2023",
-        "chapters": ["ch01(2023)", "ch01(2023)2", "ch02(2023)", "ch03(2023)", "ch03(2023)2", "ch04"]
+    "高中《電腦與資訊工藝》下冊": {
+        "link": "https://elearning.dongzong.my/dongzong/senior/sm3/IT2",
+        "chapters": ["copyrightandcontent", "ch09", "ch10_1", "ch10_2", "ch11", "ch12", "ch13", "ch14", "ch15", "ch16", "fulu A1", "fulu A2", "suoying"]
     }
 }
 

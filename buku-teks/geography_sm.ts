@@ -12,21 +12,21 @@ if (await exists(book_dir, {isReadable: true})) {
 
 console.log(`Books will be saved in subfolder ${book_dir}`)
 const links = {
-    "高中《美術》（全一冊）": {
-        "link": "https://elearning.dongzong.my/dongzong/senior/sm3/art",
-        "chapters": ["copyrightandcontent", "introduction", "ch01", "ch02", "ch03", "ch04", "ch05", "ch06", "ch07", "ch08", "ch09", "ch10", "ch11", "ch12", "ch13", "ch14", "ch15", "Ch15", "ch016", "ch17", "ch18", "ch19", "ch20", "ch21", "ch022", "ch23", "ch24", "ch25", "ch26"]
+    "高中《自然地理》": {
+        "link": "https://elearning.dongzong.my/dongzong/senior/sm1/physical_geo",
+        "chapters": ["copyright&contents", "ch01", "ch02", "ch03", "ch4", "ch05", "ch06 1-2", "ch06 3-4", "ch07", "ch8"]
     },
-    "高中《美術賞析》第一冊": {
-        "link": "https://elearning.dongzong.my/dongzong/senior/sm1/artap",
-        "chapters": ["copyright&contents", "ch01(1.1-1.4)", "ch01(1.5)", "ch02.2023", "ch03(2023)", "ch04", "ch05(2)(2023)", "ch05(1)(2023)", "ch06(2023)", "ch07(2023)", "ch08(2023)", "ch09(2023)", "ch10(10.1)2023", "ch10(10.2)2023", "ch11(11.1)2023", "ch11(11.2)2023"]
+    "高中《人文地理》": {
+        "link": "https://elearning.dongzong.my/dongzong/senior/sm2/geo_human",
+        "chapters": ["copyrightandcontent1", "ch01", "ch02", "ch03", "ch04", "ch05", "ch06"]
     },
-    "高中《美術賞析》第二冊": {
-        "link": "https://elearning.dongzong.my/dongzong/senior/sm2/art2023",
-        "chapters": ["copyrightandcontent(2023)", "ch01(2023)", "ch02(2023)", "ch03(2023)3.1", "ch03(2023)3.2", "ch04(2023)", "ch05(5.1)2023", "ch05(5.2)2023", "ch06(6.1)2023", "ch06(6.2)2023", "ch07(7.1)2023", "ch07(7.2)2023", "ch08(8.1)2023", "ch08(8.2)2023"]
+    "高中《世界地理》": {
+        "link": "https://elearning.dongzong.my/dongzong/senior/sm3/geo_world",
+        "chapters": ["copyrightandcontent", "ch01", "ch02", "ch03", "ch04", "ch05", "ch06", "ch7", "ch08"]
     },
-    "高中《美術賞析》第三冊": {
-        "link": "https://elearning.dongzong.my/dongzong/senior/sm3/art2023",
-        "chapters": ["ch01(2023)", "ch01(2023)2", "ch02(2023)", "ch03(2023)", "ch03(2023)2", "ch04"]
+    "讀圖解圖": {
+        "link": "https://elearning.dongzong.my/dongzong/senior/sm3/geo_du tu jie tu",
+        "chapters": ["copyrightandcontent", "ch01", "ch02", "ch03", "ch04", "ch05", "ch06"]
     }
 }
 
