@@ -12,21 +12,9 @@ if (await exists(book_dir, {isReadable: true})) {
 
 console.log(`Books will be saved in subfolder ${book_dir}`)
 const links = {
-    "高中《世界史1之東亞史》": {
-        "link": "https://elearning.dongzong.my/dongzong/senior/sm1/S1 his_east asia",
-        "chapters": ["copyrightandcontent", "daoyan-1", "ch01-1", "ch02-2", "ch03-3", "ch04-4", "ch05-5", "ch06-6", "ch07", "ch08", "ch09", "DaShiNianBiao"]
-    },
-    "高中《世界史2之近现代欧美、西亚和南亚史》": {
-        "link": "https://elearning.dongzong.my/dongzong/senior/senior middle world history",
-        "chapters": ["contents", "daoyan", "ch01", "ch02"//last chapter is expected ch12]
-    },
-    "高中《世界歷史》": {
-        "link": "https://elearning.dongzong.my/dongzong/senior/sm2/world_his",
-        "chapters": ["copyright&contents", "introduction", "Ch01-1", "ch2", "ch03", "ch04", "ch05", "ch06", "ch07", "Ch08-8", "ch09", "ch10", "ch11", "ch12", "ch13", "ch14", "ch15"]
-    },
-    "高中《馬來西亞及其東南亞鄰國史》": {
-        "link": "https://elearning.dongzong.my/dongzong/senior/sm3/his_asean",
-        "chapters": ["copyrightandcontent", "daoyan", "ch01", "ch02", "ch03", "ch04", "ch05", "ch06", "ch07", "ch08", "ch09", "ch10", "ch11", "dashinianbiao"]
+    "《高級數學》高一上冊（2024年使用）": {
+        "link": "https://elearning.dongzong.my/dongzong/senior/sm1/addmaths1(2023-oct)",
+        "chapters": ["Content", "ch01", "ch02", "ch03", "ch04", "ch05", "ch06", "ch07", "Glossary", "Answer"]
     }
 }
 

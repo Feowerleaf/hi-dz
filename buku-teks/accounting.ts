@@ -12,21 +12,21 @@ if (await exists(book_dir, {isReadable: true})) {
 
 console.log(`Books will be saved in subfolder ${book_dir}`)
 const links = {
-    "高中《世界史1之東亞史》": {
-        "link": "https://elearning.dongzong.my/dongzong/senior/sm1/S1 his_east asia",
-        "chapters": ["copyrightandcontent", "daoyan-1", "ch01-1", "ch02-2", "ch03-3", "ch04-4", "ch05-5", "ch06-6", "ch07", "ch08", "ch09", "DaShiNianBiao"]
+    "高中《簿記與會計》參考書1": {
+        "link": "https://elearning.dongzong.my/dongzong/senior/sm1/account",
+        "chapters": ["copyright&contents", "Ch01", "Ch02", "Ch03", "Ch04", "Ch05", "Ch06", "Ch07", "Ch08", "Ch09", "Ch10", "Ch11", "Ch12"]
     },
-    "高中《世界史2之近现代欧美、西亚和南亚史》": {
-        "link": "https://elearning.dongzong.my/dongzong/senior/senior middle world history",
-        "chapters": ["contents", "daoyan", "ch01", "ch02"//last chapter is expected ch12]
+    "高中《簿記與會計》參考書2": {
+        "link": "https://elearning.dongzong.my/dongzong/senior/sm2/account",
+        "chapters": ["copyrightandcontent", "Ch13", "Ch14", "Ch15", "Ch16", "Ch17", "Ch18", "Ch19", "Ch20", "Ch21"]
     },
-    "高中《世界歷史》": {
-        "link": "https://elearning.dongzong.my/dongzong/senior/sm2/world_his",
-        "chapters": ["copyright&contents", "introduction", "Ch01-1", "ch2", "ch03", "ch04", "ch05", "ch06", "ch07", "Ch08-8", "ch09", "ch10", "ch11", "ch12", "ch13", "ch14", "ch15"]
+    "高中《簿記與會計》參考書3": {
+        "link": "https://elearning.dongzong.my/dongzong/senior/sm3/account",
+        "chapters": ["copyrightandcontent1", "ch22", "ch_23", "ch24", "ch25", "ch26", "ch27", "ch28", "ch29", "ch30", "appendix"]
     },
-    "高中《馬來西亞及其東南亞鄰國史》": {
-        "link": "https://elearning.dongzong.my/dongzong/senior/sm3/his_asean",
-        "chapters": ["copyrightandcontent", "daoyan", "ch01", "ch02", "ch03", "ch04", "ch05", "ch06", "ch07", "ch08", "ch09", "ch10", "ch11", "dashinianbiao"]
+    "音樂啟蒙": {
+        "link": "https://elearning.dongzong.my/dongzong/senior/sm3/accounting ref",
+        "chapters": ["copyright&contents", "ch01", "ch02", "ch03", "ch04", "ch05", "ch06", "ch07", "ch08", "ch09", "ch10", "ch11", "Appendix"]
     }
 }
 
