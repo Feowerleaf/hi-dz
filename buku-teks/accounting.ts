@@ -24,7 +24,7 @@ const links = {
         "link": "https://elearning.dongzong.my/dongzong/senior/sm3/account",
         "chapters": ["copyrightandcontent1", "ch22", "ch_23", "ch24", "ch25", "ch26", "ch27", "ch28", "ch29", "ch30", "appendix"]
     },
-    "音樂啟蒙": {
+    "會計學參考書": {
         "link": "https://elearning.dongzong.my/dongzong/senior/sm3/accounting ref",
         "chapters": ["copyright&contents", "ch01", "ch02", "ch03", "ch04", "ch05", "ch06", "ch07", "ch08", "ch09", "ch10", "ch11", "Appendix"]
     }
