@@ -18,7 +18,7 @@ const links = {
     },
     "高中《生物》中冊": {
         "link": "https://elearning.dongzong.my/dongzong/senior/sm2/biology2023",
-        "chapters": ["copyright&copyrightpageandcontent(2023)", "ch10(2023)", "ch11(2023)_Neat", "ch12(2023)1", "ch12(2023)2", "ch13(2023)", "ch14(2023)1-3", "ch14(2023)4-5", "ch15(2023)", "ch16(2023)"]
+        "chapters": ["copyrightpageandcontent(2023)", "ch10(2023)", "ch11(2023)_Neat", "ch12(2023)1", "ch12(2023)2", "ch13(2023)", "ch14(2023)1-3", "ch14(2023)4-5", "ch15(2023)", "ch16(2023)"]
     },
     "高中《生物》下冊": {
         "link": "https://elearning.dongzong.my/dongzong/senior/sm3/biology",
